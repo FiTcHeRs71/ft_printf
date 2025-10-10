@@ -1,45 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 20:55:55 by yourlogin         #+#    #+#             */
-/*   Updated: 2025/10/10 20:55:55 by yourlogin        ###   ########.ch       */
+/*   Created: 2025/10/10 20:55:33 by yourlogin         #+#    #+#             */
+/*   Updated: 2025/10/10 20:55:33 by yourlogin        ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 #include "../include/libft.h"
 
-int	ft_print_adress(unsigned long long adrs, char *base)
+t_list	*ft_lstlast(t_list *lst)
 {
-	int	len;
-
-	len = 0;
-	if (adrs >= 16)
+	if (!lst)
 	{
-		len += ft_print_adress((adrs / 16), base);
-		len += ft_print_adress((adrs % 16), base);
+		return (NULL);
 	}
-	else
+	while (lst->next != NULL)
 	{
-		len += ft_putchar_pf(base[adrs]);
+		lst = lst->next;
 	}
-	return (len);
+	return (lst);
 }
 
-int	ft_putvoid_pf(unsigned long long adrs, char *base)
-{
-	int	len;
+/*
+FT_LSTLAST (simplified)
 
-	len = 0;
-	if (!adrs)
-	{
-		return (ft_putstr_pf("(nil)"));
-	}
-	len += ft_putstr_pf("0x");
-	len += ft_print_adress(adrs, base);
-	return (len);
-}
+NAME
+	ft_lstlast -- get the last element of the list
+SYNOPSIS
+	t_list *ft_lstlast(t_list *lst);
+DESCRIPTION
+	Returns the last element of the list
+PARAMETERS
+	lst: the start of the list
+RETURN VALUES
+	Last element of the list
+AUTHORIZED EXTERNAL FUNCTIONS
+	None
+*/

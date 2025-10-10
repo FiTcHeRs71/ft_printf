@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 08/10/2025 11:29:37 by fducrot           #+#    #+#             */
-/*   Updated: 10/10/2025 08:41:47 by fducrot          ###   ########.ch       */
+/*   Created: 2025/10/10 20:53:50 by yourlogin         #+#    #+#             */
+/*   Updated: 2025/10/10 20:53:50 by yourlogin        ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include "../libft/libft.h"
+# include "libft.h"
 # include <stdarg.h>
 # include <stdio.h>
 

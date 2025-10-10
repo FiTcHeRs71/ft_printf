@@ -1,37 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 08:42:33 by fducrot           #+#    #+#             */
-/*   Updated: 2025/10/10 08:42:50 by fducrot          ###   ########.ch       */
+/*   Created: 2025/10/10 20:54:47 by yourlogin         #+#    #+#             */
+/*   Updated: 2025/10/10 20:54:47 by yourlogin        ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 #include "../include/libft.h"
 
-int	ft_putstr_pf(char *str)
+void	ft_bzero(void *s, size_t n)
 {
-	int	i;
-
-	i = 0;
-	if (!str)
-	{
-		return (ft_putstr_pf("(null)"));
-	}
-	while (str[i])
-	{
-		write(1, &str[i], 1),
-		i++;
-	}
-	return (i);
+	ft_memset(s, 0, n);
 }
 
-int	ft_putchar_pf(int c)
-{
-	write(1, &c, 1);
-	return (1);
-}
+/*
+BZERO(3) (simplified)
+
+NAME
+    bzero -- write zeroes to a bye string
+SYNOPSIS
+    void bzero(void *s, size_t n);
+DESCRIPTION
+    The bzero() function writes n zeroed bytes to the string s. 
+	If n is zero, bzero() does nothing.
+	*/

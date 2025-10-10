@@ -1,37 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 08:42:33 by fducrot           #+#    #+#             */
-/*   Updated: 2025/10/10 08:42:50 by fducrot          ###   ########.ch       */
+/*   Created: 2025/10/06 14:35:16 by fdcurot           #+#    #+#             */
+/*   Updated: 2025/10/06 14:35:16 by fdcurot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 #include "../include/libft.h"
 
-int	ft_putstr_pf(char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
-	if (!str)
-	{
-		return (ft_putstr_pf("(null)"));
-	}
 	while (str[i])
 	{
-		write(1, &str[i], 1),
 		i++;
 	}
 	return (i);
 }
 
-int	ft_putchar_pf(int c)
-{
-	write(1, &c, 1);
-	return (1);
-}
+/*
+STRLEN(3) (simplified)
+
+NAME
+    strlen -- find length of string
+SYNOPSIS
+    size_t(const char *s);
+DESCRIPTION
+    The strlen() function computes the length of the string s.
+RETURN VALUES
+    The strlen() function returns the number of characters that precede 
+	the terminating NUL character.
+	*/

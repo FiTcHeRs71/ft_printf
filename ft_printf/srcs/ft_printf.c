@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 11:03:29 by fducrot           #+#    #+#             */
-/*   Updated: 2025/10/10 11:03:52 by fducrot          ###   ########.ch       */
+/*   Created: 2025/10/10 20:56:10 by yourlogin         #+#    #+#             */
+/*   Updated: 2025/10/10 20:56:10 by yourlogin        ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
-#include "../libft/libft.h"
+#include "../include/libft.h"
 
 int	ft_printf(const char *str, ...)
 {

@@ -1,45 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 20:55:55 by yourlogin         #+#    #+#             */
-/*   Updated: 2025/10/10 20:55:55 by yourlogin        ###   ########.ch       */
+/*   Created: 2025/10/10 20:55:38 by yourlogin         #+#    #+#             */
+/*   Updated: 2025/10/10 20:55:38 by yourlogin        ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 #include "../include/libft.h"
 
-int	ft_print_adress(unsigned long long adrs, char *base)
+int	ft_lstsize(t_list *lst)
 {
-	int	len;
+	int	size;
 
-	len = 0;
-	if (adrs >= 16)
+	size = 0;
+	while (lst)
 	{
-		len += ft_print_adress((adrs / 16), base);
-		len += ft_print_adress((adrs % 16), base);
+		size++;
+		lst = lst->next;
 	}
-	else
-	{
-		len += ft_putchar_pf(base[adrs]);
-	}
-	return (len);
+	return (size);
 }
 
-int	ft_putvoid_pf(unsigned long long adrs, char *base)
-{
-	int	len;
+/*
+FT_LSTSIZE (simplified)
 
-	len = 0;
-	if (!adrs)
-	{
-		return (ft_putstr_pf("(nil)"));
-	}
-	len += ft_putstr_pf("0x");
-	len += ft_print_adress(adrs, base);
-	return (len);
-}
+NAME
+	ft_lstsize -- returns the number of element in the list
+SYNOPSIS
+	int *ft_lstsize(t_list *lst);
+DESCRIPTION
+	Count the number of elements of the list
+PARAMETERS
+	lst: start of the list
+RETURN VALUES
+	The size of the list
+AUTHORIZED EXTERNAL FUNCTIONS
+	None
+	*/

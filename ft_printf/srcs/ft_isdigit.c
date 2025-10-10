@@ -1,45 +1,42 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 20:55:55 by yourlogin         #+#    #+#             */
-/*   Updated: 2025/10/10 20:55:55 by yourlogin        ###   ########.ch       */
+/*   Created: 2025/10/10 20:55:04 by yourlogin         #+#    #+#             */
+/*   Updated: 2025/10/10 20:55:04 by yourlogin        ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 #include "../include/libft.h"
 
-int	ft_print_adress(unsigned long long adrs, char *base)
+int	ft_isdigit(int c)
 {
-	int	len;
-
-	len = 0;
-	if (adrs >= 16)
+	if (c >= '0' && c <= '9')
 	{
-		len += ft_print_adress((adrs / 16), base);
-		len += ft_print_adress((adrs % 16), base);
+		return (1);
 	}
 	else
 	{
-		len += ft_putchar_pf(base[adrs]);
+		return (0);
 	}
-	return (len);
 }
 
-int	ft_putvoid_pf(unsigned long long adrs, char *base)
-{
-	int	len;
+/*
+ISDIGIT(3) (simplified)
 
-	len = 0;
-	if (!adrs)
-	{
-		return (ft_putstr_pf("(nil)"));
-	}
-	len += ft_putstr_pf("0x");
-	len += ft_print_adress(adrs, base);
-	return (len);
-}
+NAME
+    isdigit -- decimal-digit character test
+SYNOPSIS
+    int isdigit(int c)
+DESCRIPTION
+    The isdigit() function tests for a decimal digit character.
+    The value of the argument must be representable as an 
+	unsigned char or the value of EOF.
+RETURN VALUES
+    The isdigit() function return zero if the character tests false 
+	and return non-zero if the character tests true.
+	*/

@@ -1,17 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   parse.c                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 09/10/2025 16:36:51 by fducrot           #+#    #+#             */
-/*   Updated: 10/10/2025 08:33:08 by fducrot          ###   ########.ch       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include "../include/ft_printf.h"
-#include "../libft/libft.h"
+#include "../include/libft.h"
 
 int	ft_format(va_list arg, char format, int len)
 {

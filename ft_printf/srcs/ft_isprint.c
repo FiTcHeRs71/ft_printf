@@ -1,37 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 08:42:33 by fducrot           #+#    #+#             */
-/*   Updated: 2025/10/10 08:42:50 by fducrot          ###   ########.ch       */
+/*   Created: 2025/10/06 14:31:41 by fdcurot           #+#    #+#             */
+/*   Updated: 2025/10/10 20:55:07 by fdcurot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 #include "../include/libft.h"
 
-int	ft_putstr_pf(char *str)
+int	ft_isprint(int c)
 {
-	int	i;
-
-	i = 0;
-	if (!str)
+	if (c >= 32 && c <= 126)
+		return (1);
+	else
 	{
-		return (ft_putstr_pf("(null)"));
+		return (0);
 	}
-	while (str[i])
-	{
-		write(1, &str[i], 1),
-		i++;
-	}
-	return (i);
 }
 
-int	ft_putchar_pf(int c)
-{
-	write(1, &c, 1);
-	return (1);
-}
+/*
+ISASCII(3) (simplified)
+
+NAME
+    isascii -- test for ASCII character
+SYNOPSIS
+    int isascii(int c)
+DESCRIPTION
+    The isascii() function tests for an ASCII character, 
+	which is any character between 0 and octal 0177 inclusive.*/
