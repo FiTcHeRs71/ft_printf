@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:34:54 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/07 08:52:29 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:14:44 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:14:44 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

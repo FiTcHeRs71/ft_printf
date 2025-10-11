@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 20:55:49 by yourlogin         #+#    #+#             */
-/*   Updated: 2025/10/10 20:55:49 by yourlogin        ###   ########.ch       */
+/*   Created: 11/10/2025 09:02:13 by fducrot           #+#    #+#             */
+/*   Updated: 11/10/2025 09:02:13 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

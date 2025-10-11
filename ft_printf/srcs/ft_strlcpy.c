@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:35:06 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 14:35:06 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:14:59 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:14:59 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

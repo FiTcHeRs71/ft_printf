@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:34:49 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 20:39:57 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:14:37 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:14:37 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

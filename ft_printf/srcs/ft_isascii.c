@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:28:30 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 14:28:30 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:10:11 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:10:11 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

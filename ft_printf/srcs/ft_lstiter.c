@@ -3,27 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:32:59 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 15:10:13 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:24:17 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:24:17 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 #include "../include/libft.h"
 
-/*void	ft_putstr(void *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (((char *)str)[i])
-	{
-		write(1, &((char *)str)[i], 1);
-		i++;
-	}
-}*/
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	while (lst)

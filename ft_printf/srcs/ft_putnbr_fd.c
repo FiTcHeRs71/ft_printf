@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:34:19 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 15:04:45 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:13:56 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:13:56 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

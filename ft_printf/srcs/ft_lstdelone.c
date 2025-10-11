@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:32:52 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 15:06:26 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:12:42 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:12:42 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

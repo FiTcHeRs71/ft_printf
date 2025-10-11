@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 20:53:30 by yourlogin         #+#    #+#             */
-/*   Updated: 2025/10/10 20:53:30 by yourlogin        ###   ########.ch       */
+/*   Created: 11/10/2025 09:02:13 by fducrot           #+#    #+#             */
+/*   Updated: 11/10/2025 09:09:39 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

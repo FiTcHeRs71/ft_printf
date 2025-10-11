@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:35:46 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 14:35:46 by fdcurot          ###   ########.fr       */
+/*   Created: 11/10/2025 09:02:13 by fducrot           #+#    #+#             */
+/*   Updated: 11/10/2025 09:02:13 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

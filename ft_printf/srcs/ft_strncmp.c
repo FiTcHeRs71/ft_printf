@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:35:28 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 14:35:28 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/10/11 09:15:11 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:15:11 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 

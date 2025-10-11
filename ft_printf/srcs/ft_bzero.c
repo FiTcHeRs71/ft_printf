@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yourlogin <youremail@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 20:54:47 by yourlogin         #+#    #+#             */
-/*   Updated: 2025/10/10 20:54:47 by yourlogin        ###   ########.ch       */
+/*   Created: 2025/10/11 09:09:45 by fducrot           #+#    #+#             */
+/*   Updated: 2025/10/11 09:09:45 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
