@@ -478,7 +478,7 @@ Tout le code respecte la **Norme 42** (Norminette v3) :
 
 **fducrot** - 42 Lausanne Student / Étudiant 42 Lausanne
 
-[![GitHub](https://img.shields.io/badge/GitHub-fducrot-181717?style=flat-square&logo=github)](https://github.com/fducrot)
+[![GitHub](https://img.shields.io/badge/GitHub-fducrot-181717?style=flat-square&logo=github)](https://github.com/FiTcHeRs71)
 
 ---
 
